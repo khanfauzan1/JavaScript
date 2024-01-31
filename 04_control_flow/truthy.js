@@ -1,10 +1,10 @@
 const userEmail = []
 
-if (userEmail) {
-    console.log("Got user email");
-} else {
-    console.log("Don't have user email");
-}
+// if (userEmail) {
+//     console.log("Got user email");
+// } else {
+//     console.log("Don't have user email");
+// }
 
 // falsy values
 
@@ -26,14 +26,14 @@ if (userEmail) {
 // Nullish Coalescing Operator (??): null undefined
 
 let val1;
-// val1 = 5 ?? 10
-// val1 = null ?? 10
-// val1 = undefined ?? 15
-// val1 = null ?? 10 ?? 20
+val1 = 5 ?? 10
+val1 = null ?? 10
+val1 = undefined ?? 15
+val1 = null ?? 10 ?? 20
 
 
 
-// console.log(val1);
+console.log(val1);
 
 // Terniary Operator
 
