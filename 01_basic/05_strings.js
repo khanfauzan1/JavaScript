@@ -27,7 +27,7 @@ const anotherString = gameName.slice(-8,4)
 
 const newStringOne = "  fauzan "
 // console.log(newStringOne);
-// console.log(newStringOne.trim());  // remove starting space end spac
+// console.log(newStringOne.trim());  // remove starting space end space
 
 
 const url = "https://fauzan.com/fauzan%20khan"
